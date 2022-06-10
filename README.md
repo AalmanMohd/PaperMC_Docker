@@ -16,28 +16,28 @@ This container allows the user to pass Java arguments like Aikar's Flag and RAM 
 
 User can use Env Variables to pass in specific Paper Build number, RAM Guidlines and other Java arguments
 
-##### File Storage
+#### File Storage
 
 By default the Minecraft Server files will be stored in a docker volume, but to use a custom file bind as storage
 
 ```-v /custom/location:/PaperMC```
 
 
-##### Paper Build (defaults to latest build)
+#### Paper Build (defaults to latest build)
 
 ```-e BUILD_NUM="<build-number>"```
 
 Example:
 ```-e VUILD_NUM="379"```
 
-##### RAM (defaults to 1GB)
+#### RAM (defaults to 1GB)
 
 ```-e RAM="<RAM_AMOUNT>"```
 
 Example:
 ```-e RAM="3G"```
 
-##### Java Arguments
+#### Java Arguments
 
 ```-e JAVA_ARGS="<arguments>"```
 
