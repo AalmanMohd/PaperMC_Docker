@@ -23,7 +23,7 @@ fi
 
 if [ ! -z "${RAM}" ]
 then
-  JAVA_OPTS="-Xms${RAM} -Xmx${MC_RAM} ${JAVA_ARGS}"
+  JAVA_ARGS="-Xms${RAM} -Xmx${MC_RAM} ${JAVA_ARGS}"
 fi
 
 exec java -server ${JAVA_ARGS} -jar ${JAR_NAME} nogui
