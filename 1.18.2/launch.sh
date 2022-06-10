@@ -3,7 +3,7 @@
 cd PaperMC
 MC_VERSION=1.18.2
 URL=https://papermc.io/api/v2/projects/paper/versions/${MC_VERSION}
-if [${BUILD_NUM} = latest]
+if [ ${BUILD_NUM} = latest ]
 then
   BUILD_NUM=$(wget -qO - $URL | jq '.builds[-1]')
 fi
@@ -23,7 +23,7 @@ fi
 
 if [ ! -z "${RAM}" ]
 then
-  JAVA_ARGS="-Xms${RAM} -Xmx${MC_RAM} ${JAVA_ARGS}"
+  JAVA_ARGS="-Xms${RAM} -Xmx${RAM} ${JAVA_ARGS}"
 fi
 
 exec java -server ${JAVA_ARGS} -jar ${JAR_NAME} nogui
