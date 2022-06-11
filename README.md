@@ -1,5 +1,7 @@
 # PaperMC_Docker
 
+<a target="_blank" href="https://github.com/AalmanMohd/PaperMC_Docker"><img src="https://img.shields.io/github/last-commit/AalmanMohd/PaperMC_Docker" /></a> <a target="_blank" href="https://hub.docker.com/r/aalmanmohd/paper_mc"><img src="https://img.shields.io/docker/v/aalmanmohd/paper_mc/latest?label=docker%20image%20ver." /></a>
+
 This is a Linux Docker image build for Paper Minecraft server.
 
 Paper is a high performance fork of the Spigot Minecraft Server that aims to fix gameplay and mechanics inconsistencies as well as to improve performance. Paper contains numerous features, bug fixes, exploit preventions and major performance improvements not found in Spigot.
