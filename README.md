@@ -15,7 +15,13 @@ This container allows the user to pass Java arguments like Aikar's Flag and RAM 
 
 ### Basic Setup
 
-```docker run -d --name papermc -p 25565:25565 aalmanmohd/paper_mc:latest```
+```docker run -itd --name papermc -p 25565:25565 aalmanmohd/paper_mc:latest```
+
+To reconnect to terminal in future
+
+```docker attach papermc```
+
+And to exit from the attach use Ctrl+P followed by Ctrl+Q
 
 ### Advanced Setup
 
