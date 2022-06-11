@@ -48,3 +48,8 @@ Example:
 
 Example:
 ```-e JAVA_ARGS="-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200"```
+
+
+##CREDITS
+
+https://github.com/Phyremaster
