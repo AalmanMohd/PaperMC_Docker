@@ -1,4 +1,4 @@
-FROM openjdk:19-slim
+FROM openjdk:17-slim
 
 ENV BUILD_NUM="latest" \
     JAVA_ARGS="" \
