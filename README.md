@@ -41,7 +41,7 @@ By default the Minecraft Server files will be stored in a docker volume, but to 
 ```-e BUILD_NUM="<build-number>"```
 
 Example:
-```-e VUILD_NUM="379"```
+```-e BUILD_NUM="379"```
 
 #### RAM (defaults to 1GB)
 
